@@ -1,0 +1,26 @@
+/* nagivation-bar */
+#navbar{
+    flex-direction: column;
+}
+#home{
+
+}
+/* services section */
+#services{
+    flex-direction: column;
+
+}
+#services .box img{
+    height: 67px;
+    margin: 5px;
+}
+
+#contacts{}
+#clients{
+    flex-wrap: wrap;
+}
+.btn{
+    font-size: 45px;
+padding: 4px 8px;
+}
+

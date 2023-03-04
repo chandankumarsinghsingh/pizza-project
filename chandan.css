@@ -1,0 +1,185 @@
+html{
+    scroll-behavior: smooth;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+#navbar ul {
+    display: flex;
+    font-family: "Sofia", sans-serif;
+}
+#navbar::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover {
+    color: hotpink;
+    background-color: black;
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 10px;
+    height: 452px;
+    justify-content: center;
+    align-items: center;
+}
+#home h1 {
+    color: #dd1717;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+#home p {
+    color: black;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+#home::before {
+    content: "";
+    background-image: url(img7.jpg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+#services {
+    margin: 10px;
+    display: flex;
+
+}
+#services .box {
+    border: 2px solid pink;
+    padding: 24px;
+    margin: -23px 6px;
+    border-radius: 28px;
+}
+#services .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+.services-container h1 {
+    text-align: center;
+}
+#services .box p {
+    font-family: "Sofia", sans-serif;
+}
+.h-primary {
+    text-align: center;
+    align-items: center;
+    font-size: 2.3rem;
+    padding: 7px;
+    font-family: "Sofia", sans-serif;
+}
+h2.h-secondary {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 2.3;
+}
+#client-section {
+    height: 344px;
+    position: relative;
+}
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item {
+    padding: 4px;
+}
+#clients img {
+    height: 100px;
+}
+#client-section h1 {
+
+    text-align: center;
+}
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url(img5.png);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 4;
+}
+#contact {
+    text-align: center;
+    border-radius: 1px;
+}
+#contact::before {
+    content: "";
+    background: url(contact.jpg) no-repeat center  center;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.center {
+
+    text-align: center;
+}
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    border-radius: 9px;
+}
+#contact-input {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box form {
+    width: 40%;
+}
+
+#contact-box label {
+    font-size: 1.3rem;
+    font-family: "Sofia", sans-serif;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    /* font-size: 1.5rem; */
+    border-radius: 10px;
+    cursor: pointer;
+}
